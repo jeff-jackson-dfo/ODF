@@ -12,8 +12,7 @@ For more than 20 years now, the in-house ODF toolbox was developed and has been 
 While this environment served many purposes, the increasing costs and growing restricitions of commercial software such as MATLAB<sup>&reg;</sup> have forced some data groups to 
 assess open source alternatives.
 
-A few years ago the data group at BIO decided to start all new script development using the [R](https://cran.r-project.org/)<sup>&reg;</sup> language within [RStudio](https://rstudio.com/)<sup>&reg;</sup> and the [Python](https://www.python.org/)<sup>&reg;</sup> language, primarily using the [Anaconda](https://www.anaconda.com/)<sup>&reg;</sup> development ecosystem. 
-Both of these open source languages have taken off and more and more scientific work has migrated to these type of open source development environments.
+A few years ago the data group at BIO decided to start all new script development using the [R](https://cran.r-project.org/)<sup>&reg;</sup> language within [RStudio](https://rstudio.com/)<sup>&reg;</sup> and the [Python](https://www.python.org/)<sup>&reg;</sup> language. Both of these open source languages have taken off and more and more scientific work has migrated to these type of open source development environments.
 
 ## Current Development
 
