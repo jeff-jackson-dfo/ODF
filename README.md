@@ -2,7 +2,7 @@
 
 ## History and Background
 
-For more almost 40 years, employees at Fisheries and Oceans Canada created and have used the in-house Ocean Data Format (ODF) to encapsulate oceanographic data.
+For more almost 40 years, employees at the Department of Fisheries and Oceans (DFO) Canada created and have used the in-house Ocean Data Format (ODF) to encapsulate oceanographic data.
 
 This in-house file format was created at [BIO (Bedford Institute of Oceanography)](https://www.bio.gc.ca/index-en.php) and over the years toolboxes for working with oceanographic 
 data stored in this format have been created and used. It should be noted that important contributions to the ODF format and toolbox code base have been made by colleagues at 
