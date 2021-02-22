@@ -1,54 +1,29 @@
-#'  @title BFSPEC:
+#' @title Create an ODF file specification string.
+#' 
+#' @description 
+#' 'bfspec' returns a file specification string based on the metadata of the input odf oce object.
 #'
-#'    Creates a file specification string based on ODF header information.
-#'   ODSToolbox Version: 2.0
+#' @author Jeff Jackson
 #'
-#'   Creation Date: 02-SEP-2015
-#'   Last Updated: 02-SEP-2015
+#' @version 1.0
 #'
-#'   @author: Jeff Jackson
+#' @param C an odf oce object.
 #'
-#'   @version: 1.0
+#' @return bstr The file specification string.
 #'
-#'   @copyright: 2014, Fisheries and Oceans Canada. All Rights Reserved.
+#' @seealso odfR::bfname(), oce
 #'
-#'   Source:
-#'       Ocean Data and Information Services,
-#'       Bedford Institute of Oceanography, DFO, Canada.
-#'       DataServicesDonnees"at"dfo-mpo.gc.ca
+#' @export
 #'
-#'   @summary: Creates a file specification string based on ODF header information.
+#' @examples
+#' bfstr <- bfspec(ODF)
 #'
-#' @example
-#'   Usage: bstr = bfspec(A)
+#' Creation Date: 02-SEP-2015
+#' Last Updated: 20-FEB-2021
 #'
-#'   Input:
-#'       A: An ODF structured array.
-#'
-#'   Output:
-#'       bstr: The file specification string.
-#'
-#'   Example:
-#'       bfstr = bfspec(ODF)
-#'
-#'
-#'
-#'   @details
-#'   Updates:
-#'
-#'     Jeff Jackson (02-SEP-2015)
-#'     -
-#'
-#'   Report any bugs to DataServicesDonnees"at"dfo-mpo.gc.ca
-#'   @export
 bfspec <- function(C) {
-
-
   ch <- C@metadata$odfHeader$CRUISE_HEADER
   eh <- C@metadata$odfHeader$EVENT_HEADER
-
-  bstr <- paste(eh$DATA_TYPE, '_', ch$CRUISE_NUMBER, '_', eh$EVENT_NUMBER, '_',
-          eh$EVENT_QUALIFIER1, '_', eh$EVENT_QUALIFIER2, sep = "")
-
+  bstr <- paste(eh$DATA_TYPE, '_', ch$CRUISE_NUMBER, '_', eh$EVENT_NUMBER, '_', eh$EVENT_QUALIFIER1, '_', eh$EVENT_QUALIFIER2, sep = "")
   return(bstr)
 }
