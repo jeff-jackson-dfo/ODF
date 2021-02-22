@@ -7,7 +7,7 @@
 #'   ODSToolbox Version: 2.0
 #'
 #'   Creation Date: 09-SEP-2015
-#'   Last Updated: 12-NOV-2015
+#'   Last Updated: 22-FEB-2021
 #'
 #'   @author: Jeff Jackson
 #'
@@ -18,7 +18,7 @@
 #'   Source:
 #'       Ocean Data and Information Services,
 #'       Bedford Institute of Oceanography, DFO, Canada.
-#'       DataServicesDonnees@dfo-mpo.gc.ca
+#'       DataServicesDonnees@@dfo-mpo.gc.ca
 #'
 #'   @example
 #'
@@ -47,7 +47,7 @@
 #'     - Fixed a logic error.
 #'
 #'   @bugs
-#'   Report any bugs to DataServicesDonnees@dfo-mpo.gc.ca
+#'   Report any bugs to DataServicesDonnees@@dfo-mpo.gc.ca
 
 
 null2na <- function(A) {

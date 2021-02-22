@@ -3,8 +3,8 @@
 #' This is a R version of the RBR Ltd. MATLAB function deriveO2concentration.m
 #' This function uses the Weiss (1970) formula.
 #'
-#' @author Jeff Jackson, jeffrey.jackson "\@\" dfo-mpo.gc.ca
-#' @date 20-FEB-2021
+#' @author Jeff Jackson
+#' @date 22-FEB-2021
 #'
 #' @param oxsat oxygen saturation (%)
 #' @param temp temperature of the water (degrees C)  
